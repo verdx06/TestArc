@@ -18,7 +18,7 @@ final class ContentAssembly {
     
     static func useCase() -> ViewModel {
         let network = NetworkApi(network: networkService)
-        let repository = PostRepository(network: network)
+        let repository: PostRepositoryProtocol = PostRepository(network: network)
         let service = CharacterService(repository: repository)
         return ViewModel(repository: service)
     }
