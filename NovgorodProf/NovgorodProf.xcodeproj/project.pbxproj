@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89339E512DDDE20D00A36E26 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E502DDDE20D00A36E26 /* UserModel.swift */; };
+		89339E542DDDE2BE00A36E26 /* AuthorizateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E532DDDE2BE00A36E26 /* AuthorizateProtocol.swift */; };
+		89339E572DDDE3BA00A36E26 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E562DDDE3BA00A36E26 /* CharacterService.swift */; };
+		89339E592DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E582DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift */; };
+		89339E5B2DDDE42300A36E26 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E5A2DDDE42300A36E26 /* Repository.swift */; };
+		89339E5E2DDDE6A600A36E26 /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E5D2DDDE6A600A36E26 /* LoginAssembly.swift */; };
+		89339E682DDDEC0B00A36E26 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E672DDDEC0B00A36E26 /* ProfileView.swift */; };
+		894BF13B2DDC589900BB9A68 /* EmailValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF13A2DDC589900BB9A68 /* EmailValidate.swift */; };
+		894BF13D2DDC5B7E00BB9A68 /* EmailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF13C2DDC5B7E00BB9A68 /* EmailProtocol.swift */; };
+		894BF1412DDC5D9800BB9A68 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1402DDC5D9800BB9A68 /* RegisterView.swift */; };
+		894BF1452DDC643300BB9A68 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1442DDC643300BB9A68 /* RegisterViewModel.swift */; };
+		894BF1482DDC673B00BB9A68 /* TelegramCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1472DDC673B00BB9A68 /* TelegramCodeView.swift */; };
+		89A872AA2DDB608C009148AF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 89A872A92DDB608C009148AF /* Alamofire */; };
+		89A872B02DDB610E009148AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A872AC2DDB610E009148AF /* LoginView.swift */; };
+		89A872B12DDB610E009148AF /* NovgorodProfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A872AE2DDB610E009148AF /* NovgorodProfApp.swift */; };
+		89A872B22DDB610E009148AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A872AB2DDB610E009148AF /* Assets.xcassets */; };
+		89A872BF2DDB6B31009148AF /* Benbow Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A872BA2DDB6B31009148AF /* Benbow Bold.ttf */; };
+		89A872C22DDB6B31009148AF /* Benbow Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A872BC2DDB6B31009148AF /* Benbow Regular.ttf */; };
+		89A872C32DDB6B31009148AF /* Benbow Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89A872BD2DDB6B31009148AF /* Benbow Semibold.ttf */; };
+		89A872C72DDB6DAD009148AF /* NetworkApi in Frameworks */ = {isa = PBXBuildFile; productRef = 89A872C62DDB6DAD009148AF /* NetworkApi */; };
+		89A872C92DDB6DAD009148AF /* UIKitComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 89A872C82DDB6DAD009148AF /* UIKitComponents */; };
+		89A872CB2DDBA055009148AF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A872CA2DDBA055009148AF /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89339E502DDDE20D00A36E26 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		89339E532DDDE2BE00A36E26 /* AuthorizateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizateProtocol.swift; sourceTree = "<group>"; };
+		89339E562DDDE3BA00A36E26 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		89339E582DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizateRepositoryProtocol.swift; sourceTree = "<group>"; };
+		89339E5A2DDDE42300A36E26 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		89339E5D2DDDE6A600A36E26 /* LoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
+		89339E672DDDEC0B00A36E26 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		894BF13A2DDC589900BB9A68 /* EmailValidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidate.swift; sourceTree = "<group>"; };
+		894BF13C2DDC5B7E00BB9A68 /* EmailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailProtocol.swift; sourceTree = "<group>"; };
+		894BF1402DDC5D9800BB9A68 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		894BF1442DDC643300BB9A68 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		894BF1472DDC673B00BB9A68 /* TelegramCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramCodeView.swift; sourceTree = "<group>"; };
+		89A872932DDB5F94009148AF /* NovgorodProf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovgorodProf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A872A22DDB5FAF009148AF /* NetworkApi */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkApi; sourceTree = "<group>"; };
+		89A872A42DDB5FDE009148AF /* UIKitComponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIKitComponents; sourceTree = "<group>"; };
+		89A872AB2DDB610E009148AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89A872AC2DDB610E009148AF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		89A872AD2DDB610E009148AF /* NovgorodProf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NovgorodProf.entitlements; sourceTree = "<group>"; };
+		89A872AE2DDB610E009148AF /* NovgorodProfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovgorodProfApp.swift; sourceTree = "<group>"; };
+		89A872BA2DDB6B31009148AF /* Benbow Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Benbow Bold.ttf"; sourceTree = "<group>"; };
+		89A872BC2DDB6B31009148AF /* Benbow Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Benbow Regular.ttf"; sourceTree = "<group>"; };
+		89A872BD2DDB6B31009148AF /* Benbow Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Benbow Semibold.ttf"; sourceTree = "<group>"; };
+		89A872C42DDB6D3C009148AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		89A872CA2DDBA055009148AF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A872902DDB5F94009148AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A872C72DDB6DAD009148AF /* NetworkApi in Frameworks */,
+				89A872C92DDB6DAD009148AF /* UIKitComponents in Frameworks */,
+				89A872AA2DDB608C009148AF /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89339E4F2DDDE1D800A36E26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89339E502DDDE20D00A36E26 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89339E522DDDE28700A36E26 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				89339E5D2DDDE6A600A36E26 /* LoginAssembly.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		89339E552DDDE3AC00A36E26 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				89339E562DDDE3BA00A36E26 /* CharacterService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		89339E5C2DDDE68B00A36E26 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				89339E532DDDE2BE00A36E26 /* AuthorizateProtocol.swift */,
+				89339E582DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		89339E662DDDEBFE00A36E26 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				89339E672DDDEC0B00A36E26 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		894BF1392DDC588500BB9A68 /* EmailValidate */ = {
+			isa = PBXGroup;
+			children = (
+				894BF13A2DDC589900BB9A68 /* EmailValidate.swift */,
+				894BF13C2DDC5B7E00BB9A68 /* EmailProtocol.swift */,
+			);
+			path = EmailValidate;
+			sourceTree = "<group>";
+		};
+		894BF13E2DDC5C6A00BB9A68 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				89A872AC2DDB610E009148AF /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		894BF13F2DDC5D8900BB9A68 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				894BF1402DDC5D9800BB9A68 /* RegisterView.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		894BF1462DDC672A00BB9A68 /* TelegramCode */ = {
+			isa = PBXGroup;
+			children = (
+				894BF1472DDC673B00BB9A68 /* TelegramCodeView.swift */,
+			);
+			path = TelegramCode;
+			sourceTree = "<group>";
+		};
+		89A8728A2DDB5F94009148AF = {
+			isa = PBXGroup;
+			children = (
+				89A872A42DDB5FDE009148AF /* UIKitComponents */,
+				89A872A22DDB5FAF009148AF /* NetworkApi */,
+				89A872AF2DDB610E009148AF /* NovgorodProf */,
+				89A872C52DDB6DAD009148AF /* Frameworks */,
+				89A872942DDB5F94009148AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A872942DDB5F94009148AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A872932DDB5F94009148AF /* NovgorodProf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A872AF2DDB610E009148AF /* NovgorodProf */ = {
+			isa = PBXGroup;
+			children = (
+				89A872C42DDB6D3C009148AF /* Info.plist */,
+				89A872B32DDB6117009148AF /* Data */,
+				89A872B42DDB611A009148AF /* Domain */,
+				89A872B52DDB611A009148AF /* Presentation */,
+				89A872AB2DDB610E009148AF /* Assets.xcassets */,
+				89A872AD2DDB610E009148AF /* NovgorodProf.entitlements */,
+			);
+			path = NovgorodProf;
+			sourceTree = "<group>";
+		};
+		89A872B32DDB6117009148AF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				89339E5A2DDDE42300A36E26 /* Repository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		89A872B42DDB611A009148AF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				89339E5C2DDDE68B00A36E26 /* Interface */,
+				89339E552DDDE3AC00A36E26 /* Service */,
+				89339E522DDDE28700A36E26 /* UseCases */,
+				89339E4F2DDDE1D800A36E26 /* Model */,
+				894BF1392DDC588500BB9A68 /* EmailValidate */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		89A872B52DDB611A009148AF /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				89A872B82DDB61C7009148AF /* App */,
+				89A872B62DDB6130009148AF /* View */,
+				89A872B72DDB6132009148AF /* ViewModel */,
+				89A872B92DDB6B26009148AF /* Font */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		89A872B62DDB6130009148AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89339E662DDDEBFE00A36E26 /* Profile */,
+				894BF1462DDC672A00BB9A68 /* TelegramCode */,
+				894BF13F2DDC5D8900BB9A68 /* Register */,
+				894BF13E2DDC5C6A00BB9A68 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89A872B72DDB6132009148AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				894BF1442DDC643300BB9A68 /* RegisterViewModel.swift */,
+				89A872CA2DDBA055009148AF /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		89A872B82DDB61C7009148AF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				89A872AE2DDB610E009148AF /* NovgorodProfApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		89A872B92DDB6B26009148AF /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				89A872BA2DDB6B31009148AF /* Benbow Bold.ttf */,
+				89A872BC2DDB6B31009148AF /* Benbow Regular.ttf */,
+				89A872BD2DDB6B31009148AF /* Benbow Semibold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		89A872C52DDB6DAD009148AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A872922DDB5F94009148AF /* NovgorodProf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A8729F2DDB5F96009148AF /* Build configuration list for PBXNativeTarget "NovgorodProf" */;
+			buildPhases = (
+				89A8728F2DDB5F94009148AF /* Sources */,
+				89A872902DDB5F94009148AF /* Frameworks */,
+				89A872912DDB5F94009148AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovgorodProf;
+			packageProductDependencies = (
+				89A872A92DDB608C009148AF /* Alamofire */,
+				89A872C62DDB6DAD009148AF /* NetworkApi */,
+				89A872C82DDB6DAD009148AF /* UIKitComponents */,
+			);
+			productName = NovgorodProf;
+			productReference = 89A872932DDB5F94009148AF /* NovgorodProf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A8728B2DDB5F94009148AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					89A872922DDB5F94009148AF = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 89A8728E2DDB5F94009148AF /* Build configuration list for PBXProject "NovgorodProf" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A8728A2DDB5F94009148AF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				89A872A82DDB608C009148AF /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 89A872942DDB5F94009148AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A872922DDB5F94009148AF /* NovgorodProf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A872912DDB5F94009148AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A872B22DDB610E009148AF /* Assets.xcassets in Resources */,
+				89A872BF2DDB6B31009148AF /* Benbow Bold.ttf in Resources */,
+				89A872C22DDB6B31009148AF /* Benbow Regular.ttf in Resources */,
+				89A872C32DDB6B31009148AF /* Benbow Semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A8728F2DDB5F94009148AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89339E542DDDE2BE00A36E26 /* AuthorizateProtocol.swift in Sources */,
+				894BF1482DDC673B00BB9A68 /* TelegramCodeView.swift in Sources */,
+				894BF13B2DDC589900BB9A68 /* EmailValidate.swift in Sources */,
+				89339E5B2DDDE42300A36E26 /* Repository.swift in Sources */,
+				89A872B02DDB610E009148AF /* LoginView.swift in Sources */,
+				89339E5E2DDDE6A600A36E26 /* LoginAssembly.swift in Sources */,
+				89339E592DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift in Sources */,
+				89339E682DDDEC0B00A36E26 /* ProfileView.swift in Sources */,
+				894BF1452DDC643300BB9A68 /* RegisterViewModel.swift in Sources */,
+				89A872B12DDB610E009148AF /* NovgorodProfApp.swift in Sources */,
+				89339E572DDDE3BA00A36E26 /* CharacterService.swift in Sources */,
+				894BF1412DDC5D9800BB9A68 /* RegisterView.swift in Sources */,
+				89A872CB2DDBA055009148AF /* LoginViewModel.swift in Sources */,
+				89339E512DDDE20D00A36E26 /* UserModel.swift in Sources */,
+				894BF13D2DDC5B7E00BB9A68 /* EmailProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89A8729D2DDB5F96009148AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 74A6F279YB;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89A8729E2DDB5F96009148AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 74A6F279YB;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		89A872A02DDB5F96009148AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NovgorodProf/NovgorodProf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74A6F279YB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NovgorodProf/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verdx.NovgorodProf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		89A872A12DDB5F96009148AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NovgorodProf/NovgorodProf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74A6F279YB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NovgorodProf/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verdx.NovgorodProf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A8728E2DDB5F94009148AF /* Build configuration list for PBXProject "NovgorodProf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A8729D2DDB5F96009148AF /* Debug */,
+				89A8729E2DDB5F96009148AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A8729F2DDB5F96009148AF /* Build configuration list for PBXNativeTarget "NovgorodProf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A872A02DDB5F96009148AF /* Debug */,
+				89A872A12DDB5F96009148AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89A872A82DDB608C009148AF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89A872A92DDB608C009148AF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89A872A82DDB608C009148AF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		89A872C62DDB6DAD009148AF /* NetworkApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkApi;
+		};
+		89A872C82DDB6DAD009148AF /* UIKitComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIKitComponents;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 89A8728B2DDB5F94009148AF /* Project object */;
+}
