@@ -9,6 +9,6 @@ import Foundation
 import Alamofire
 
 public protocol NetworkRequest {
-    func execute(path: String, method: HTTPMethod, parameters: Parameters) async throws -> Data
+    func execute(path: String, method: HTTPMethod, parameters: Parameters, headers: HTTPHeaders) async throws -> Data
     func configure(baseURL: String)
 }

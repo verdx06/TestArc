@@ -15,9 +15,13 @@ struct UserModel: Decodable {
 }
 
 extension UserModel {
-    init(from response: ServerResponseModel) throws {
+    init(from response: ServerResponseModel) {
         self.email = response.email
         self.name = response.name
         self.telegram = response.telegram
     }
+}
+
+extension UserModel {
+    static let empty: UserModel = UserModel(email: "", name: "", telegram: "")
 }

@@ -2,27 +2,27 @@
 //  RegisterViewModel.swift
 //  NovgorodProf
 //
-//  Created by Виталий Багаутдинов on 20.05.2025.
+//  Created by Виталий Багаутдинов on 24.05.2025.
 //
 
 import Foundation
 
 final class RegisterViewModel: ObservableObject {
     
-    private let domain: AuthorizateProtocol
+    let domain: CharacterServiceProtocol
     
-    init(domain: AuthorizateProtocol) {
+    init(domain: CharacterServiceProtocol = AuthorizateAssembly.useCase()) {
         self.domain = domain
     }
     
     @Published var user: UserModel?
     
-    @Published var firstName: String = ""
-    @Published var secondName: String = ""
-    @Published var BatyaName: String = ""
-    @Published var birthday: String = ""
-    @Published var gender: String = ""
-    @Published var telegram: String = ""
+    @Published var firstName: String = "123456"
+    @Published var secondName: String = "12345"
+    @Published var phone: String = "89955743а040"
+    @Published var birthday: String = "12345"
+    @Published var gender: String = "male"
+    @Published var telegram: String = "@male"
     
     @Published var email: String = "test@gmail.com"
     @Published var password: String = "12345678"
@@ -36,21 +36,14 @@ final class RegisterViewModel: ObservableObject {
     func register() {
         Task {
             do {
-                await MainActor.run {
-                    self.isNavigate = false
-                    self.isProgress = true
-                }
-                let user = try await domain.register(email: email, password: password, name: (secondName + " " + firstName + " " + BatyaName), telegram: telegram)
-                await MainActor.run {
-                    self.user = user
-                    self.isNavigate = true
-                    self.isProgress = false
-                }
+                isNavigate = false
+                isProgress = true
+                user = try await domain.register(email: email, password: password, name: (secondName + " " + firstName), telegram: telegram)
+                isNavigate = true
+                isProgress = false
             } catch {
-                await MainActor.run {
-                    self.isNavigate = false
-                    self.isProgress = false
-                }
+                isNavigate = false
+                isProgress = false
                 print("Register " + error.localizedDescription)
             }
         }
@@ -58,9 +51,8 @@ final class RegisterViewModel: ObservableObject {
     
     func activeButton() -> Bool {
         
-        return !firstName.isEmpty && !secondName.isEmpty && !BatyaName.isEmpty && !birthday.isEmpty && !gender.isEmpty && !telegram.isEmpty
+        return !firstName.isEmpty && !secondName.isEmpty && !phone.isEmpty && !birthday.isEmpty && !gender.isEmpty && !telegram.isEmpty
+        
     }
-    
-
     
 }

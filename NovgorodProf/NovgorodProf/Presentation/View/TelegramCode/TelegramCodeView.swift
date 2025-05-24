@@ -11,6 +11,7 @@ import UIKitComponents
 struct TelegramCodeView: View {
     
     @Environment(\.dismiss) var dismiss
+    let code: Int
     @ObservedObject var rvm: RegisterViewModel
     @FocusState var focused: Int?
     
@@ -39,8 +40,11 @@ struct TelegramCodeView: View {
                 }
                 .onChange(of: focused) { newValue in
                     if focused == nil {
-                        if enterValue.joined() == "1111" {
+                        if enterValue.joined() == String(code) {
+                            print("код верный!")
                             rvm.register()
+                        } else {
+                            print("код неверный!")
                         }
                     }
                 }
@@ -48,7 +52,7 @@ struct TelegramCodeView: View {
             Spacer()
         }
         .fullScreenCover(isPresented: $rvm.isNavigate, content: {
-            ProfileView(user: rvm.user ?? UserModel(email: "", name: "", telegram: ""))
+            ProfileView(user: rvm.user ?? UserModel(email: "", name: "", telegram: ""), pvm: ProfileViewModel(domain: ProfileAssembly.useCase()))
         })
         .navigationBarBackButtonHidden()
             .padding(.horizontal, 20)
@@ -56,5 +60,5 @@ struct TelegramCodeView: View {
 }
 
 #Preview {
-    TelegramCodeView(rvm: RegisterViewModel(domain: AuthorizateAssembly.useCase()))
+    TelegramCodeView(code: 1234, rvm: RegisterViewModel())
 }

@@ -63,7 +63,7 @@ struct LoginView: View {
                 
             }
             .fullScreenCover(isPresented: $lvm.isNavigate, content: {
-                ProfileView(user: lvm.user ?? UserModel(email: "", name: "", telegram: ""))
+                TabbarView(user: lvm.user ?? UserModel.empty)
             })
             .padding(.horizontal, 20)
             .frame(maxWidth: .infinity, alignment: .leading)

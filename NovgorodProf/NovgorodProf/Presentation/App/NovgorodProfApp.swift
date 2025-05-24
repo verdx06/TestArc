@@ -11,8 +11,8 @@ import SwiftUI
 struct NovgorodProfApp: App {
     var body: some Scene {
         WindowGroup {
-//            LoginView(lvm: LoginViewModel(domain: AuthorizateAssembly.useCase()))
-            RegisterView(rvm: RegisterViewModel(domain: AuthorizateAssembly.useCase()))
+            LoginView(lvm: LoginViewModel(domain: AuthorizateAssembly.useCase()))
+//            RegisterView(rvm: RegisterViewModel(domain: AuthorizateAssembly.useCase()))
         }
     }
 }

@@ -9,9 +9,9 @@ import Foundation
 
 final class LoginViewModel: ObservableObject {
     
-    private let domain: AuthorizateProtocol
+    private let domain: CharacterServiceProtocol
     
-    init(domain: AuthorizateProtocol) {
+    init(domain: CharacterServiceProtocol) {
         self.domain = domain
     }
     
@@ -36,6 +36,9 @@ final class LoginViewModel: ObservableObject {
                 let user = try await domain.login(login: email, password: password)
                 await MainActor.run {
                     self.user = user
+                    UserDefaults.standard.set(user.name, forKey: "name")
+                    UserDefaults.standard.set(user.email, forKey: "email")
+                    UserDefaults.standard.set(user.telegram, forKey: "telegram")
                     self.isNavigate = true
                     self.isProgress = false
                 }
@@ -50,13 +53,7 @@ final class LoginViewModel: ObservableObject {
     }
     
     func checkPassword() -> Bool {
-        let count = password.count >= 8
-        let number = password.contains { $0.isNumber }
-        let upper = password.contains { $0.isUppercase }
-        let low = password.contains { $0.isLowercase }
-        let symb = password.rangeOfCharacter(from: .symbols) != nil || password.rangeOfCharacter(from: .punctuationCharacters) != nil
-        
-        return count && number && upper && low && symb
+        return domain.checkValidPassword(password)
     }
     
     func activeButton() -> Bool {
@@ -65,7 +62,7 @@ final class LoginViewModel: ObservableObject {
     
     func checkError() -> Bool {
         
-        emailError = EmailValidate.emailValidate(email) ? "" : "Email некорректный"
+        emailError = email.validateEmail(email) ? "" : "Email некорректный"
         passwordError = checkPassword() ? "" : "Пароль некорректный"
         
         return emailError.isEmpty || passwordError.isEmpty

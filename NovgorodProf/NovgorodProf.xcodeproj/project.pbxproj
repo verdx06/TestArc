@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89317CB52DE11B5F00DD85ED /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 89317CB42DE11B5F00DD85ED /* Swinject */; };
 		89339E512DDDE20D00A36E26 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E502DDDE20D00A36E26 /* UserModel.swift */; };
-		89339E542DDDE2BE00A36E26 /* AuthorizateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E532DDDE2BE00A36E26 /* AuthorizateProtocol.swift */; };
+		89339E542DDDE2BE00A36E26 /* CharacterServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E532DDDE2BE00A36E26 /* CharacterServiceProtocol.swift */; };
 		89339E572DDDE3BA00A36E26 /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E562DDDE3BA00A36E26 /* CharacterService.swift */; };
 		89339E592DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E582DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift */; };
-		89339E5B2DDDE42300A36E26 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E5A2DDDE42300A36E26 /* Repository.swift */; };
-		89339E5E2DDDE6A600A36E26 /* LoginAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E5D2DDDE6A600A36E26 /* LoginAssembly.swift */; };
+		89339E5B2DDDE42300A36E26 /* AuthorizateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E5A2DDDE42300A36E26 /* AuthorizateRepository.swift */; };
+		89339E5E2DDDE6A600A36E26 /* AuthorizateAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E5D2DDDE6A600A36E26 /* AuthorizateAssembly.swift */; };
 		89339E682DDDEC0B00A36E26 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E672DDDEC0B00A36E26 /* ProfileView.swift */; };
-		894BF13B2DDC589900BB9A68 /* EmailValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF13A2DDC589900BB9A68 /* EmailValidate.swift */; };
-		894BF13D2DDC5B7E00BB9A68 /* EmailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF13C2DDC5B7E00BB9A68 /* EmailProtocol.swift */; };
-		894BF1412DDC5D9800BB9A68 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1402DDC5D9800BB9A68 /* RegisterView.swift */; };
-		894BF1452DDC643300BB9A68 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1442DDC643300BB9A68 /* RegisterViewModel.swift */; };
+		89339E732DDF016B00A36E26 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E722DDF016B00A36E26 /* String.swift */; };
+		89339E762DDF048F00A36E26 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 89339E752DDF048F00A36E26 /* Kingfisher */; };
+		89339E782DDF0F7800A36E26 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E772DDF0F7800A36E26 /* ProfileViewModel.swift */; };
+		89339E9B2DDF429B00A36E26 /* ImageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E9A2DDF429B00A36E26 /* ImageRepository.swift */; };
+		89339E9D2DDF42B400A36E26 /* ImageRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E9C2DDF42B400A36E26 /* ImageRepositoryProtocol.swift */; };
+		89339E9F2DDF42D600A36E26 /* PromoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339E9E2DDF42D600A36E26 /* PromoModel.swift */; };
+		89339EA12DDF44D100A36E26 /* ImageCharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339EA02DDF44D100A36E26 /* ImageCharacterService.swift */; };
+		89339EA52DDF44E400A36E26 /* ImageServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339EA42DDF44E400A36E26 /* ImageServiceProtocol.swift */; };
+		89339EA72DDF45C400A36E26 /* ProfileAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339EA62DDF45C400A36E26 /* ProfileAssembly.swift */; };
+		89339EAA2DE0A0A600A36E26 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339EA92DE0A0A600A36E26 /* TabbarView.swift */; };
+		89339EAC2DE0CC6F00A36E26 /* NetworkBaseAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89339EAB2DE0CC6F00A36E26 /* NetworkBaseAssembly.swift */; };
+		894BF1412DDC5D9800BB9A68 /* CreateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1402DDC5D9800BB9A68 /* CreateProfileView.swift */; };
+		894BF1452DDC643300BB9A68 /* CreateProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1442DDC643300BB9A68 /* CreateProfileViewModel.swift */; };
 		894BF1482DDC673B00BB9A68 /* TelegramCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894BF1472DDC673B00BB9A68 /* TelegramCodeView.swift */; };
+		895EC5942DE1BBDD002451A6 /* TelegramAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC5932DE1BBDD002451A6 /* TelegramAssembly.swift */; };
+		895EC59D2DE1BD14002451A6 /* TelegramServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC59C2DE1BD14002451A6 /* TelegramServiceProtocol.swift */; };
+		895EC59F2DE1BD15002451A6 /* TelegramRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC59E2DE1BD15002451A6 /* TelegramRepositoryProtocol.swift */; };
+		895EC5A32DE1BD65002451A6 /* CharacterServiceTelegram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC5A22DE1BD65002451A6 /* CharacterServiceTelegram.swift */; };
+		895EC5A52DE1BE6E002451A6 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC5A42DE1BE6E002451A6 /* RegisterViewModel.swift */; };
+		895EC5A72DE1BEDA002451A6 /* TelegramRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC5A62DE1BEDA002451A6 /* TelegramRepository.swift */; };
+		895EC5A92DE1C087002451A6 /* NetworkTelegramAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC5A82DE1C087002451A6 /* NetworkTelegramAssembly.swift */; };
+		895EC5AB2DE1C917002451A6 /* TelegramModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC5AA2DE1C917002451A6 /* TelegramModel.swift */; };
 		89A872AA2DDB608C009148AF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 89A872A92DDB608C009148AF /* Alamofire */; };
 		89A872B02DDB610E009148AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A872AC2DDB610E009148AF /* LoginView.swift */; };
 		89A872B12DDB610E009148AF /* NovgorodProfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A872AE2DDB610E009148AF /* NovgorodProfApp.swift */; };
@@ -33,17 +51,33 @@
 
 /* Begin PBXFileReference section */
 		89339E502DDDE20D00A36E26 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		89339E532DDDE2BE00A36E26 /* AuthorizateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizateProtocol.swift; sourceTree = "<group>"; };
+		89339E532DDDE2BE00A36E26 /* CharacterServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterServiceProtocol.swift; sourceTree = "<group>"; };
 		89339E562DDDE3BA00A36E26 /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
 		89339E582DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizateRepositoryProtocol.swift; sourceTree = "<group>"; };
-		89339E5A2DDDE42300A36E26 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		89339E5D2DDDE6A600A36E26 /* LoginAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAssembly.swift; sourceTree = "<group>"; };
+		89339E5A2DDDE42300A36E26 /* AuthorizateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizateRepository.swift; sourceTree = "<group>"; };
+		89339E5D2DDDE6A600A36E26 /* AuthorizateAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizateAssembly.swift; sourceTree = "<group>"; };
 		89339E672DDDEC0B00A36E26 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		894BF13A2DDC589900BB9A68 /* EmailValidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidate.swift; sourceTree = "<group>"; };
-		894BF13C2DDC5B7E00BB9A68 /* EmailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailProtocol.swift; sourceTree = "<group>"; };
-		894BF1402DDC5D9800BB9A68 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		894BF1442DDC643300BB9A68 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		89339E722DDF016B00A36E26 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		89339E772DDF0F7800A36E26 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		89339E9A2DDF429B00A36E26 /* ImageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepository.swift; sourceTree = "<group>"; };
+		89339E9C2DDF42B400A36E26 /* ImageRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepositoryProtocol.swift; sourceTree = "<group>"; };
+		89339E9E2DDF42D600A36E26 /* PromoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoModel.swift; sourceTree = "<group>"; };
+		89339EA02DDF44D100A36E26 /* ImageCharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCharacterService.swift; sourceTree = "<group>"; };
+		89339EA42DDF44E400A36E26 /* ImageServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceProtocol.swift; sourceTree = "<group>"; };
+		89339EA62DDF45C400A36E26 /* ProfileAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
+		89339EA92DE0A0A600A36E26 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		89339EAB2DE0CC6F00A36E26 /* NetworkBaseAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBaseAssembly.swift; sourceTree = "<group>"; };
+		894BF1402DDC5D9800BB9A68 /* CreateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileView.swift; sourceTree = "<group>"; };
+		894BF1442DDC643300BB9A68 /* CreateProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewModel.swift; sourceTree = "<group>"; };
 		894BF1472DDC673B00BB9A68 /* TelegramCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramCodeView.swift; sourceTree = "<group>"; };
+		895EC5932DE1BBDD002451A6 /* TelegramAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramAssembly.swift; sourceTree = "<group>"; };
+		895EC59C2DE1BD14002451A6 /* TelegramServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramServiceProtocol.swift; sourceTree = "<group>"; };
+		895EC59E2DE1BD15002451A6 /* TelegramRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramRepositoryProtocol.swift; sourceTree = "<group>"; };
+		895EC5A22DE1BD65002451A6 /* CharacterServiceTelegram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterServiceTelegram.swift; sourceTree = "<group>"; };
+		895EC5A42DE1BE6E002451A6 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		895EC5A62DE1BEDA002451A6 /* TelegramRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramRepository.swift; sourceTree = "<group>"; };
+		895EC5A82DE1C087002451A6 /* NetworkTelegramAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTelegramAssembly.swift; sourceTree = "<group>"; };
+		895EC5AA2DE1C917002451A6 /* TelegramModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramModel.swift; sourceTree = "<group>"; };
 		89A872932DDB5F94009148AF /* NovgorodProf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovgorodProf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A872A22DDB5FAF009148AF /* NetworkApi */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkApi; sourceTree = "<group>"; };
 		89A872A42DDB5FDE009148AF /* UIKitComponents */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIKitComponents; sourceTree = "<group>"; };
@@ -54,7 +88,7 @@
 		89A872BA2DDB6B31009148AF /* Benbow Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Benbow Bold.ttf"; sourceTree = "<group>"; };
 		89A872BC2DDB6B31009148AF /* Benbow Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Benbow Regular.ttf"; sourceTree = "<group>"; };
 		89A872BD2DDB6B31009148AF /* Benbow Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Benbow Semibold.ttf"; sourceTree = "<group>"; };
-		89A872C42DDB6D3C009148AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		89A872C42DDB6D3C009148AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89A872CA2DDBA055009148AF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89339E762DDF048F00A36E26 /* Kingfisher in Frameworks */,
+				89317CB52DE11B5F00DD85ED /* Swinject in Frameworks */,
 				89A872C72DDB6DAD009148AF /* NetworkApi in Frameworks */,
 				89A872C92DDB6DAD009148AF /* UIKitComponents in Frameworks */,
 				89A872AA2DDB608C009148AF /* Alamofire in Frameworks */,
@@ -76,22 +112,26 @@
 			isa = PBXGroup;
 			children = (
 				89339E502DDDE20D00A36E26 /* UserModel.swift */,
+				89339E9E2DDF42D600A36E26 /* PromoModel.swift */,
+				895EC5AA2DE1C917002451A6 /* TelegramModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		89339E522DDDE28700A36E26 /* UseCases */ = {
+		89339E522DDDE28700A36E26 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				89339E5D2DDDE6A600A36E26 /* LoginAssembly.swift */,
+				895EC5972DE1BC3D002451A6 /* Telegram */,
+				895EC5962DE1BC36002451A6 /* Base */,
 			);
-			path = UseCases;
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		89339E552DDDE3AC00A36E26 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				89339E562DDDE3BA00A36E26 /* CharacterService.swift */,
+				895EC5A12DE1BD54002451A6 /* Telegram */,
+				895EC5A02DE1BD4D002451A6 /* Base */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -99,8 +139,8 @@
 		89339E5C2DDDE68B00A36E26 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				89339E532DDDE2BE00A36E26 /* AuthorizateProtocol.swift */,
-				89339E582DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift */,
+				895EC59B2DE1BCF6002451A6 /* Telegram */,
+				895EC59A2DE1BCEF002451A6 /* Base */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -113,13 +153,28 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		894BF1392DDC588500BB9A68 /* EmailValidate */ = {
+		89339E702DDF012300A36E26 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				894BF13A2DDC589900BB9A68 /* EmailValidate.swift */,
-				894BF13C2DDC5B7E00BB9A68 /* EmailProtocol.swift */,
+				89339E712DDF012B00A36E26 /* Extensions */,
 			);
-			path = EmailValidate;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		89339E712DDF012B00A36E26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89339E722DDF016B00A36E26 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		89339EA82DE0A09900A36E26 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				89339EA92DE0A0A600A36E26 /* TabbarView.swift */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 		894BF13E2DDC5C6A00BB9A68 /* Login */ = {
@@ -130,12 +185,12 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		894BF13F2DDC5D8900BB9A68 /* Register */ = {
+		894BF13F2DDC5D8900BB9A68 /* CreateProfile */ = {
 			isa = PBXGroup;
 			children = (
-				894BF1402DDC5D9800BB9A68 /* RegisterView.swift */,
+				894BF1402DDC5D9800BB9A68 /* CreateProfileView.swift */,
 			);
-			path = Register;
+			path = CreateProfile;
 			sourceTree = "<group>";
 		};
 		894BF1462DDC672A00BB9A68 /* TelegramCode */ = {
@@ -144,6 +199,62 @@
 				894BF1472DDC673B00BB9A68 /* TelegramCodeView.swift */,
 			);
 			path = TelegramCode;
+			sourceTree = "<group>";
+		};
+		895EC5962DE1BC36002451A6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				89339EAB2DE0CC6F00A36E26 /* NetworkBaseAssembly.swift */,
+				89339E5D2DDDE6A600A36E26 /* AuthorizateAssembly.swift */,
+				89339EA62DDF45C400A36E26 /* ProfileAssembly.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		895EC5972DE1BC3D002451A6 /* Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				895EC5932DE1BBDD002451A6 /* TelegramAssembly.swift */,
+				895EC5A82DE1C087002451A6 /* NetworkTelegramAssembly.swift */,
+			);
+			path = Telegram;
+			sourceTree = "<group>";
+		};
+		895EC59A2DE1BCEF002451A6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				89339E532DDDE2BE00A36E26 /* CharacterServiceProtocol.swift */,
+				89339E582DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift */,
+				89339E9C2DDF42B400A36E26 /* ImageRepositoryProtocol.swift */,
+				89339EA42DDF44E400A36E26 /* ImageServiceProtocol.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		895EC59B2DE1BCF6002451A6 /* Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				895EC59C2DE1BD14002451A6 /* TelegramServiceProtocol.swift */,
+				895EC59E2DE1BD15002451A6 /* TelegramRepositoryProtocol.swift */,
+			);
+			path = Telegram;
+			sourceTree = "<group>";
+		};
+		895EC5A02DE1BD4D002451A6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				89339E562DDDE3BA00A36E26 /* CharacterService.swift */,
+				89339EA02DDF44D100A36E26 /* ImageCharacterService.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		895EC5A12DE1BD54002451A6 /* Telegram */ = {
+			isa = PBXGroup;
+			children = (
+				895EC5A22DE1BD65002451A6 /* CharacterServiceTelegram.swift */,
+			);
+			path = Telegram;
 			sourceTree = "<group>";
 		};
 		89A8728A2DDB5F94009148AF = {
@@ -169,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				89A872C42DDB6D3C009148AF /* Info.plist */,
+				89339E702DDF012300A36E26 /* Common */,
 				89A872B32DDB6117009148AF /* Data */,
 				89A872B42DDB611A009148AF /* Domain */,
 				89A872B52DDB611A009148AF /* Presentation */,
@@ -181,7 +293,9 @@
 		89A872B32DDB6117009148AF /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				89339E5A2DDDE42300A36E26 /* Repository.swift */,
+				89339E5A2DDDE42300A36E26 /* AuthorizateRepository.swift */,
+				89339E9A2DDF429B00A36E26 /* ImageRepository.swift */,
+				895EC5A62DE1BEDA002451A6 /* TelegramRepository.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -191,9 +305,8 @@
 			children = (
 				89339E5C2DDDE68B00A36E26 /* Interface */,
 				89339E552DDDE3AC00A36E26 /* Service */,
-				89339E522DDDE28700A36E26 /* UseCases */,
+				89339E522DDDE28700A36E26 /* Assembly */,
 				89339E4F2DDDE1D800A36E26 /* Model */,
-				894BF1392DDC588500BB9A68 /* EmailValidate */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -212,9 +325,10 @@
 		89A872B62DDB6130009148AF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				89339EA82DE0A09900A36E26 /* Tabbar */,
 				89339E662DDDEBFE00A36E26 /* Profile */,
 				894BF1462DDC672A00BB9A68 /* TelegramCode */,
-				894BF13F2DDC5D8900BB9A68 /* Register */,
+				894BF13F2DDC5D8900BB9A68 /* CreateProfile */,
 				894BF13E2DDC5C6A00BB9A68 /* Login */,
 			);
 			path = View;
@@ -223,8 +337,10 @@
 		89A872B72DDB6132009148AF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				894BF1442DDC643300BB9A68 /* RegisterViewModel.swift */,
+				89339E772DDF0F7800A36E26 /* ProfileViewModel.swift */,
+				894BF1442DDC643300BB9A68 /* CreateProfileViewModel.swift */,
 				89A872CA2DDBA055009148AF /* LoginViewModel.swift */,
+				895EC5A42DE1BE6E002451A6 /* RegisterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -274,6 +390,8 @@
 				89A872A92DDB608C009148AF /* Alamofire */,
 				89A872C62DDB6DAD009148AF /* NetworkApi */,
 				89A872C82DDB6DAD009148AF /* UIKitComponents */,
+				89339E752DDF048F00A36E26 /* Kingfisher */,
+				89317CB42DE11B5F00DD85ED /* Swinject */,
 			);
 			productName = NovgorodProf;
 			productReference = 89A872932DDB5F94009148AF /* NovgorodProf.app */;
@@ -305,6 +423,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				89A872A82DDB608C009148AF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				89339E742DDF048F00A36E26 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				89317CB32DE11B5F00DD85ED /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 89A872942DDB5F94009148AF /* Products */;
@@ -335,21 +455,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89339E542DDDE2BE00A36E26 /* AuthorizateProtocol.swift in Sources */,
+				89339E542DDDE2BE00A36E26 /* CharacterServiceProtocol.swift in Sources */,
 				894BF1482DDC673B00BB9A68 /* TelegramCodeView.swift in Sources */,
-				894BF13B2DDC589900BB9A68 /* EmailValidate.swift in Sources */,
-				89339E5B2DDDE42300A36E26 /* Repository.swift in Sources */,
+				895EC5A72DE1BEDA002451A6 /* TelegramRepository.swift in Sources */,
+				89339E5B2DDDE42300A36E26 /* AuthorizateRepository.swift in Sources */,
+				895EC5AB2DE1C917002451A6 /* TelegramModel.swift in Sources */,
+				89339E9F2DDF42D600A36E26 /* PromoModel.swift in Sources */,
+				895EC59F2DE1BD15002451A6 /* TelegramRepositoryProtocol.swift in Sources */,
+				89339EAC2DE0CC6F00A36E26 /* NetworkBaseAssembly.swift in Sources */,
+				895EC5A92DE1C087002451A6 /* NetworkTelegramAssembly.swift in Sources */,
+				89339E9B2DDF429B00A36E26 /* ImageRepository.swift in Sources */,
 				89A872B02DDB610E009148AF /* LoginView.swift in Sources */,
-				89339E5E2DDDE6A600A36E26 /* LoginAssembly.swift in Sources */,
+				89339E5E2DDDE6A600A36E26 /* AuthorizateAssembly.swift in Sources */,
+				89339EA52DDF44E400A36E26 /* ImageServiceProtocol.swift in Sources */,
+				895EC5942DE1BBDD002451A6 /* TelegramAssembly.swift in Sources */,
 				89339E592DDDE40600A36E26 /* AuthorizateRepositoryProtocol.swift in Sources */,
 				89339E682DDDEC0B00A36E26 /* ProfileView.swift in Sources */,
-				894BF1452DDC643300BB9A68 /* RegisterViewModel.swift in Sources */,
+				895EC5A32DE1BD65002451A6 /* CharacterServiceTelegram.swift in Sources */,
+				89339EA12DDF44D100A36E26 /* ImageCharacterService.swift in Sources */,
+				894BF1452DDC643300BB9A68 /* CreateProfileViewModel.swift in Sources */,
 				89A872B12DDB610E009148AF /* NovgorodProfApp.swift in Sources */,
+				89339E782DDF0F7800A36E26 /* ProfileViewModel.swift in Sources */,
+				895EC59D2DE1BD14002451A6 /* TelegramServiceProtocol.swift in Sources */,
 				89339E572DDDE3BA00A36E26 /* CharacterService.swift in Sources */,
-				894BF1412DDC5D9800BB9A68 /* RegisterView.swift in Sources */,
+				894BF1412DDC5D9800BB9A68 /* CreateProfileView.swift in Sources */,
+				89339EAA2DE0A0A600A36E26 /* TabbarView.swift in Sources */,
+				89339E9D2DDF42B400A36E26 /* ImageRepositoryProtocol.swift in Sources */,
+				89339EA72DDF45C400A36E26 /* ProfileAssembly.swift in Sources */,
 				89A872CB2DDBA055009148AF /* LoginViewModel.swift in Sources */,
+				895EC5A52DE1BE6E002451A6 /* RegisterViewModel.swift in Sources */,
 				89339E512DDDE20D00A36E26 /* UserModel.swift in Sources */,
-				894BF13D2DDC5B7E00BB9A68 /* EmailProtocol.swift in Sources */,
+				89339E732DDF016B00A36E26 /* String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +714,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		89317CB32DE11B5F00DD85ED /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		89339E742DDF048F00A36E26 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
 		89A872A82DDB608C009148AF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -589,6 +741,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		89317CB42DE11B5F00DD85ED /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89317CB32DE11B5F00DD85ED /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		89339E752DDF048F00A36E26 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89339E742DDF048F00A36E26 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		89A872A92DDB608C009148AF /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 89A872A82DDB608C009148AF /* XCRemoteSwiftPackageReference "Alamofire" */;
